@@ -26,3 +26,8 @@ readTextFile("sites.json", function(text) {
         document.body.appendChild(newLine);
     });
 });
+let link = document.createElement("link");
+link.rel = "stylesheet";
+link.href = "style.css";
+
+document.head.appendChild(link);
